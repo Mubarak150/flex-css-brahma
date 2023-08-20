@@ -1,27 +1,127 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>flex practice</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="container-flex-direction">
-      <!-- <div class="item"> -->
-        <!-- <h3>one</h3>
-      </div> -->
-      <div class="item-1">
-        <h3>one</h3>
+    <div class="navbar">
+      <div class="nav-image-container">
+        <img class="nav-image" src="logo.jpg" alt="logo">
       </div>
-      <div class="item-2">
-        <h3>two</h3>
+      <div class="nav-table-container">
+        <ul class="nav-table">
+          <li class="nav-items"><a class="nav-links" href="#">Home</a></li>
+          <li class="nav-items"><a class="nav-links" href="#">About</a></li>
+          <li class="nav-items"><a class="nav-links" href="#">Contact</a></li>
+          <li class="nav-items"><a class="nav-links" href="#">Sign In</a></li>
+          <li class="nav-items"><a class="nav-links" href="#">Sign Up</a></li>
+        </ul>
       </div>
-      <div class="item-3">
-        <h1>three</h1>
+    </div>
+    <div class="banner">
+      <div class="banner-contents">
+        <h2>Lorem Ipsum Dolar</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat deserunt molestiae optio illum, reprehenderit ab! Quaerat sequi ratione adipisci consectetur harum, odio quis molestias non! Quaerat veniam dignissimos perspiciatis excepturi!</p>
+        <button class="button">sign in</button>
+      </div>
+      <div class="banner-image">
+        <img src="signIn.png" alt="sign-up-img">
+      </div>
+    </div>
+    <div class="features">
+      <div class="feature-head">
+         <h2 class="f-head">Features</h2>
+      </div>
+        <div class="feature-contents">
+          <!-- <div class="feature-row1"> -->
+            <div class="feature-box feature1">
+            <span style="padding: 10px; border-radius: 100%; background-color: white;">
+              <img class="feature-icons" src="feature1.gif" alt="f2">
+            </span>
+            <h3>Lorem Ipsum</h3>
+            <p class="feature-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aut fuga ea beatae at, vitae modi placeat ipsam adipisci optio! </p>
+          </div>
+          <div class="feature-box feature2">
+            <span style="padding: 10px; border-radius: 100%; background-color: white;">
+              <img class="feature-icons" src="feature2.gif" alt="f2">
+            </span>
+            <h3>Lorem Ipsum</h3>
+            <p class="feature-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aut fuga ea beatae at, vitae modi placeat ipsam adipisci optio! </p>
+          </div>
+         <!-- </div>
+         <div class="feature-row2"> -->
+           <div class="feature-box feature3">
+             <span style="padding: 10px; border-radius: 100%; background-color: white;">
+               <img class="feature-icons" src="feature3.gif" alt="f2">
+             </span>
+             <h3>Lorem Ipsum</h3>
+             <p class="feature-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aut fuga ea beatae at, vitae modi placeat ipsam adipisci optio! </p>
+           <!-- </div> -->
+        </div>
+        
+      </div>
+    </div>
+    <div class="testimonial">
+      <div class="t-head">
+        <h2>Testimonial</h2>
+      </div>
+      <div class="t-contents">
+        <div class="t-box">
+          <span style="padding: 10px; border-radius: 100%; background-color: white;">
+            <img class="feature-icons" src="feature1.gif" alt="f2">
+          </span>
+          <h3>Lorem Ipsum</h3>
+          <p class="feature-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aut fuga ea beatae at, vitae modi placeat ipsam adipisci optio! </p>
+        </div>
+        <div class="t-box">
+          <span style="padding: 10px; border-radius: 100%; background-color: white;">
+            <img class="feature-icons" src="feature2.gif" alt="f2">
+          </span>
+          <h3>Lorem Ipsum</h3>
+          <p class="feature-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aut fuga ea beatae at, vitae modi placeat ipsam adipisci optio! </p>
+        </div>
+        <div class="t-box">
+          <span style="padding: 10px; border-radius: 100%; background-color: white;">
+            <img class="feature-icons" src="feature3.gif" alt="f2">
+          </span>
+          <h3>Lorem Ipsum</h3>
+          <p class="feature-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aut fuga ea beatae at, vitae modi placeat ipsam adipisci optio! </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="f-1 f-items">
+        <img style="width: 50px; border-radius: 100%; margin-top: 21.280px;" src="logo.jpg" alt="">
+        <p style="color: white;">Call At: 03000000000</p>
+        <a class="f-links" href="mailto:mubarak@gmail.com">Mail Us</a>
+      </div>
+      <div class="f-2 f-items">
+        <h4>Adress</h4>
+        <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quibusdam. Cumque sunt non rerum sapiente!</p>
 
       </div>
-      
+      <div class="f-3 f-items">
+        <h4>Links</h4>
+        <a class="f-links" href="#">Twitter</a>
+        <a class="f-links" href="#">Facebook</a>
+        <a class="f-links" href="#">LinkedIn</a>
+        <a class="f-links" href="#">Instagram</a>
+        <a class="f-links" href="#">YouTube</a>
+      </div>
+      <div class="f-4 f-items">
+        <h4>About</h4>
+        <a class="f-links" href="#">Home</a>
+        <a class="f-links" href="#">FAQs</a>
+        <a class="f-links" href="#">About Us</a>
+        <a class="f-links" href="#">Sign In</a>
+        <a class="f-links" href="#">Sign Up</a>
+      </div>
+    </div>
+    <div class="copyrights">
+      <h6 class="cr-text">copyrights: Brahma.inc@2023</h6>
     </div>
   </body>
 </html>
